@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NotificationCenter.Inputs.Authorization.ApiKeyQueryImpl
 {
-    class InDBApiKeyQuery : IGetApiKeyQuery
+    public class InDBApiKeyQuery : IGetApiKeyQuery
     {
         private readonly IDictionary<string, APIKey> _apiKeys;
 

@@ -11,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using NotificationCenter.Data;
+using NotificationCenter.Inputs.Authorization.ApiKeyQueryImpl;
 using NotificationCenter.Inputs.Authorization.Models;
 using NotificationCenter.Inputs.Authorization.Services;
 
@@ -45,6 +46,7 @@ namespace NotificationCenter
                 options.AddPolicy(Policies.ApiKeyAccess, policy => policy.Requirements.Add(new OnlyApiKeyAuthorizationRequirement()));
             });
 
+            services.AddScoped<IGetApiKeyQuery, InDBApiKeyQuery>();
             services.AddSingleton<IAuthorizationHandler, OnlyApiKeyAuthorizationHandler>();
 
             services.AddHttpContextAccessor();
