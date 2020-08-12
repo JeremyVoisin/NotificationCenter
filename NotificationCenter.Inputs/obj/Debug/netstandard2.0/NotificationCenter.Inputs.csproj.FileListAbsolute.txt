@@ -1,0 +1,5 @@
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.Inputs\bin\Debug\netstandard2.0\NotificationCenter.Inputs.deps.json
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.Inputs\bin\Debug\netstandard2.0\NotificationCenter.Inputs.dll
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.Inputs\obj\Debug\netstandard2.0\NotificationCenter.Inputs.csprojAssemblyReference.cache
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.Inputs\obj\Debug\netstandard2.0\NotificationCenter.Inputs.AssemblyInfoInputs.cache
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.Inputs\obj\Debug\netstandard2.0\NotificationCenter.Inputs.AssemblyInfo.cs
