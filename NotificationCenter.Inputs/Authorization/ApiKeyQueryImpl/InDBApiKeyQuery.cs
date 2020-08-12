@@ -31,6 +31,4 @@ namespace NotificationCenter.Inputs.Authorization.ApiKeyQueryImpl
             return Task.FromResult(key);
         }
     }
-    {
-    }
 }

@@ -1,0 +1,8 @@
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.Dao\bin\Debug\netstandard2.0\NotificationCenter.Dao.deps.json
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.Dao\bin\Debug\netstandard2.0\NotificationCenter.Dao.dll
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.Dao\bin\Debug\netstandard2.0\NotificationCenter.Dao.pdb
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.Dao\obj\Debug\netstandard2.0\NotificationCenter.Dao.AssemblyInfoInputs.cache
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.Dao\obj\Debug\netstandard2.0\NotificationCenter.Dao.AssemblyInfo.cs
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.Dao\obj\Debug\netstandard2.0\NotificationCenter.Dao.csproj.CoreCompileInputs.cache
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.Dao\obj\Debug\netstandard2.0\NotificationCenter.Dao.dll
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.Dao\obj\Debug\netstandard2.0\NotificationCenter.Dao.pdb

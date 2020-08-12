@@ -1,0 +1,9 @@
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\PayloadParser\bin\Debug\netstandard2.0\PayloadParser.deps.json
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\PayloadParser\bin\Debug\netstandard2.0\PayloadParser.dll
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\PayloadParser\bin\Debug\netstandard2.0\PayloadParser.pdb
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\PayloadParser\obj\Debug\netstandard2.0\PayloadParser.csprojAssemblyReference.cache
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\PayloadParser\obj\Debug\netstandard2.0\PayloadParser.AssemblyInfoInputs.cache
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\PayloadParser\obj\Debug\netstandard2.0\PayloadParser.AssemblyInfo.cs
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\PayloadParser\obj\Debug\netstandard2.0\PayloadParser.csproj.CoreCompileInputs.cache
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\PayloadParser\obj\Debug\netstandard2.0\PayloadParser.dll
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\PayloadParser\obj\Debug\netstandard2.0\PayloadParser.pdb

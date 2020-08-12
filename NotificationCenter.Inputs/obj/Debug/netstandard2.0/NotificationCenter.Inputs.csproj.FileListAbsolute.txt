@@ -3,3 +3,7 @@ C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.Inputs\
 C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.Inputs\obj\Debug\netstandard2.0\NotificationCenter.Inputs.csprojAssemblyReference.cache
 C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.Inputs\obj\Debug\netstandard2.0\NotificationCenter.Inputs.AssemblyInfoInputs.cache
 C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.Inputs\obj\Debug\netstandard2.0\NotificationCenter.Inputs.AssemblyInfo.cs
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.Inputs\obj\Debug\netstandard2.0\NotificationCenter.Inputs.csproj.CoreCompileInputs.cache
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.Inputs\bin\Debug\netstandard2.0\NotificationCenter.Inputs.pdb
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.Inputs\obj\Debug\netstandard2.0\NotificationCenter.Inputs.dll
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.Inputs\obj\Debug\netstandard2.0\NotificationCenter.Inputs.pdb
