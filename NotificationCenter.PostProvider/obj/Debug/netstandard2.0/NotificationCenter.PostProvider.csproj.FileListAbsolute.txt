@@ -7,3 +7,12 @@ C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.PostPro
 C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.PostProvider\obj\Debug\netstandard2.0\NotificationCenter.PostProvider.csproj.CoreCompileInputs.cache
 C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.PostProvider\obj\Debug\netstandard2.0\NotificationCenter.PostProvider.dll
 C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter.PostProvider\obj\Debug\netstandard2.0\NotificationCenter.PostProvider.pdb
+C:\Users\voisi\Source\Repos\JeremyVoisin\NotificationCenter\NotificationCenter.PostProvider\bin\Debug\netstandard2.0\NotificationCenter.PostProvider.deps.json
+C:\Users\voisi\Source\Repos\JeremyVoisin\NotificationCenter\NotificationCenter.PostProvider\bin\Debug\netstandard2.0\NotificationCenter.PostProvider.dll
+C:\Users\voisi\Source\Repos\JeremyVoisin\NotificationCenter\NotificationCenter.PostProvider\bin\Debug\netstandard2.0\NotificationCenter.PostProvider.pdb
+C:\Users\voisi\Source\Repos\JeremyVoisin\NotificationCenter\NotificationCenter.PostProvider\obj\Debug\netstandard2.0\NotificationCenter.PostProvider.csprojAssemblyReference.cache
+C:\Users\voisi\Source\Repos\JeremyVoisin\NotificationCenter\NotificationCenter.PostProvider\obj\Debug\netstandard2.0\NotificationCenter.PostProvider.AssemblyInfoInputs.cache
+C:\Users\voisi\Source\Repos\JeremyVoisin\NotificationCenter\NotificationCenter.PostProvider\obj\Debug\netstandard2.0\NotificationCenter.PostProvider.AssemblyInfo.cs
+C:\Users\voisi\Source\Repos\JeremyVoisin\NotificationCenter\NotificationCenter.PostProvider\obj\Debug\netstandard2.0\NotificationCenter.PostProvider.csproj.CoreCompileInputs.cache
+C:\Users\voisi\Source\Repos\JeremyVoisin\NotificationCenter\NotificationCenter.PostProvider\obj\Debug\netstandard2.0\NotificationCenter.PostProvider.dll
+C:\Users\voisi\Source\Repos\JeremyVoisin\NotificationCenter\NotificationCenter.PostProvider\obj\Debug\netstandard2.0\NotificationCenter.PostProvider.pdb

@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QrGMZ/hyBDkLK90HonYtDKbXeyfWjVIutRu8bvvmohM0jWxpGLLZxBxA9sAF3/OYgWXCwLgfLe9rZO2BYCKW1Q==",
+  "dgSpecHash": "Yt+cFGUltVUHSZ1w5G1szx9cnwU4Ta15hN+G/Vxnntz9KjChBRuHM39U5oiQu/x5qg3oORY9HALEvyK0P7SmzA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JeremyVoisin\\source\\repos\\NotificationCenter\\NotificationCenter.PostProvider\\NotificationCenter.PostProvider.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\JeremyVoisin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\JeremyVoisin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\voisi\\Source\\Repos\\JeremyVoisin\\NotificationCenter\\NotificationCenter.PostProvider\\NotificationCenter.PostProvider.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

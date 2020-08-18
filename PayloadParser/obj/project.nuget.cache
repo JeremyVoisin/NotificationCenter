@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "20xiQcSceozfuH6iTHZPRCcHjkEesH6Vrm6zhrw/FGObUSZASxP5trlJz0+m1fTLiWA4uq9aZEYn/0dqVyKQBA==",
+  "dgSpecHash": "EejeeTUOznCu9q1Y8YCjgOh1ZE0MsBtIlAU0iKVTErqF3PCHtI/gWIT6G2ddk2kB8l5CIggn5qAGG5X6a4t8tA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JeremyVoisin\\source\\repos\\NotificationCenter\\PayloadParser\\PayloadParser.csproj",
+  "projectFilePath": "C:\\Users\\voisi\\Source\\Repos\\JeremyVoisin\\NotificationCenter\\PayloadParser\\NotificationCenter.PayloadParser.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\JeremyVoisin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\JeremyVoisin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\voisi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

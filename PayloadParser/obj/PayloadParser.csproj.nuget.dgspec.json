@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JeremyVoisin\\source\\repos\\NotificationCenter\\PayloadParser\\PayloadParser.csproj": {}
+    "C:\\Users\\voisi\\Source\\Repos\\JeremyVoisin\\NotificationCenter\\PayloadParser\\PayloadParser.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JeremyVoisin\\source\\repos\\NotificationCenter\\PayloadParser\\PayloadParser.csproj": {
+    "C:\\Users\\voisi\\Source\\Repos\\JeremyVoisin\\NotificationCenter\\PayloadParser\\PayloadParser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JeremyVoisin\\source\\repos\\NotificationCenter\\PayloadParser\\PayloadParser.csproj",
+        "projectUniqueName": "C:\\Users\\voisi\\Source\\Repos\\JeremyVoisin\\NotificationCenter\\PayloadParser\\PayloadParser.csproj",
         "projectName": "PayloadParser",
-        "projectPath": "C:\\Users\\JeremyVoisin\\source\\repos\\NotificationCenter\\PayloadParser\\PayloadParser.csproj",
-        "packagesPath": "C:\\Users\\JeremyVoisin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JeremyVoisin\\source\\repos\\NotificationCenter\\PayloadParser\\obj\\",
+        "projectPath": "C:\\Users\\voisi\\Source\\Repos\\JeremyVoisin\\NotificationCenter\\PayloadParser\\PayloadParser.csproj",
+        "packagesPath": "C:\\Users\\voisi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\voisi\\Source\\Repos\\JeremyVoisin\\NotificationCenter\\PayloadParser\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\JeremyVoisin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\voisi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +58,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
