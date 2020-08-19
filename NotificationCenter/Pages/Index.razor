@@ -1,7 +1,24 @@
 ﻿@page "/"
+@inject IJSRuntime JSRuntime
 
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
+
+<div id="jsoneditor" style="width: 1000px; height: 400px;"></div>
+
+<button class="btn btn-primary" @onclick="ReadJson">Click me</button>
+
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if(firstRender) await JSRuntime.InvokeVoidAsync("initJsonEditor", new[] { "{}" });
+    }
+
+    protected async void ReadJson()
+    {
+        Console.WriteLine(await JSRuntime.InvokeAsync<string>("getJsonStringFromEditor"));
+    }
+}

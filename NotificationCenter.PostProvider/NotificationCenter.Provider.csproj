@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="M2MqttDotnetCore" Version="1.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NotificationCenter.Dao\NotificationCenter.Dao.csproj" />
+    <ProjectReference Include="..\PayloadParser\NotificationCenter.PayloadParser.csproj" />
+  </ItemGroup>
+
+</Project>

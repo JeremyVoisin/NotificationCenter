@@ -10,10 +10,15 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Newtonsoft.Json.Linq;
 using NotificationCenter.Data;
 using NotificationCenter.Inputs.Authorization.ApiKeyQueryImpl;
 using NotificationCenter.Inputs.Authorization.Models;
 using NotificationCenter.Inputs.Authorization.Services;
+using NotificationCenter.PayloadParser;
+using NotificationCenter.PayloadParser.PayloadParserImpl;
+using NotificationCenter.PayloadParser.PayloadSearchEngineImpl;
+using PayloadParser;
 
 namespace NotificationCenter
 {
@@ -32,7 +37,7 @@ namespace NotificationCenter
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<WeatherForecastService>();
+            services.AddDbContext<DataContext>();
 
             services.AddAuthentication(options =>
             {
@@ -50,6 +55,16 @@ namespace NotificationCenter
             services.AddSingleton<IAuthorizationHandler, OnlyApiKeyAuthorizationHandler>();
 
             services.AddHttpContextAccessor();
+
+            IPayloadSearchEngine searchEngine = new PayloadSearchEngine();
+            IPayloadParser payloadParser = new JsonPayloadParser();
+
+            Console.WriteLine(searchEngine.SearchForValue(payloadParser.ParseStringPayload("{'hector':{'echo':'Philippe'}}"), "hector.echo").Value<string>());
+
+            using(DataContext db = new DataContext())
+            {
+                db.Database.EnsureCreated();
+            }
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

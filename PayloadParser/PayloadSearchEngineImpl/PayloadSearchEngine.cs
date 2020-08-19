@@ -6,7 +6,7 @@ using System.Text;
 namespace NotificationCenter.PayloadParser.PayloadSearchEngineImpl
 {
     #nullable enable
-    class PayloadSearchEngine : IPayloadSearchEngine
+    public class PayloadSearchEngine : IPayloadSearchEngine
     {
         public JToken? SearchForValue(JObject parsedPayload, string searched)
         {

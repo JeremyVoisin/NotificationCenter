@@ -52,23 +52,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\voisi\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\JeremyVoisin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\voisi\\Source\\Repos\\JeremyVoisin\\NotificationCenter\\PayloadParser\\NotificationCenter.PayloadParser.csproj",
+      "projectUniqueName": "C:\\Users\\JeremyVoisin\\source\\repos\\NotificationCenter\\PayloadParser\\NotificationCenter.PayloadParser.csproj",
       "projectName": "NotificationCenter.PayloadParser",
-      "projectPath": "C:\\Users\\voisi\\Source\\Repos\\JeremyVoisin\\NotificationCenter\\PayloadParser\\NotificationCenter.PayloadParser.csproj",
-      "packagesPath": "C:\\Users\\voisi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\voisi\\Source\\Repos\\JeremyVoisin\\NotificationCenter\\PayloadParser\\obj\\",
+      "projectPath": "C:\\Users\\JeremyVoisin\\source\\repos\\NotificationCenter\\PayloadParser\\NotificationCenter.PayloadParser.csproj",
+      "packagesPath": "C:\\Users\\JeremyVoisin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JeremyVoisin\\source\\repos\\NotificationCenter\\PayloadParser\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\voisi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JeremyVoisin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

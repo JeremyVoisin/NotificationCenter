@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PayloadParser
 {
-    interface IPayloadParser
+    public interface IPayloadParser
     {
         JObject ParseStringPayload(string payload);
 

@@ -3799,23 +3799,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\voisi\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\JeremyVoisin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\voisi\\Source\\Repos\\JeremyVoisin\\NotificationCenter\\NotificationCenter.Inputs\\NotificationCenter.Inputs.csproj",
+      "projectUniqueName": "C:\\Users\\JeremyVoisin\\source\\repos\\NotificationCenter\\NotificationCenter.Inputs\\NotificationCenter.Inputs.csproj",
       "projectName": "NotificationCenter.Inputs",
-      "projectPath": "C:\\Users\\voisi\\Source\\Repos\\JeremyVoisin\\NotificationCenter\\NotificationCenter.Inputs\\NotificationCenter.Inputs.csproj",
-      "packagesPath": "C:\\Users\\voisi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\voisi\\Source\\Repos\\JeremyVoisin\\NotificationCenter\\NotificationCenter.Inputs\\obj\\",
+      "projectPath": "C:\\Users\\JeremyVoisin\\source\\repos\\NotificationCenter\\NotificationCenter.Inputs\\NotificationCenter.Inputs.csproj",
+      "packagesPath": "C:\\Users\\JeremyVoisin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JeremyVoisin\\source\\repos\\NotificationCenter\\NotificationCenter.Inputs\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\voisi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JeremyVoisin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

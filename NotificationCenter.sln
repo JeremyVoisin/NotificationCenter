@@ -12,7 +12,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationCenter", "Notif
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationCenter.Inputs", "NotificationCenter.Inputs\NotificationCenter.Inputs.csproj", "{6A5F57D6-AE80-46F0-A1A9-32F299B8619E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationCenter.PostProvider", "NotificationCenter.PostProvider\NotificationCenter.PostProvider.csproj", "{3017A0D2-AC3F-434D-B661-96A17C926771}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationCenter.Provider", "NotificationCenter.PostProvider\NotificationCenter.Provider.csproj", "{3017A0D2-AC3F-434D-B661-96A17C926771}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationCenter.PayloadParser", "PayloadParser\NotificationCenter.PayloadParser.csproj", "{AD987157-5C6E-4D2E-AD3B-CD1800E12379}"
 EndProject

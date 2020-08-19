@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NotificationCenter.Data;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,9 +7,7 @@ namespace NotificationCenter.PostProvider
 {
     interface IPostProvider
     {
-        void SetUp(Dictionary<string, object> parameters);
-
-        bool Post(Dictionary<string, object> body);
-        bool Post(IEnumerable<object> body);
+        bool Post(OutputProvider provider, string jsonBody, Dictionary<string, string> headers);
+        bool Post(OutputProvider provider, string jsonBody);
     }
 }

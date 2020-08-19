@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\voisi\\Source\\Repos\\JeremyVoisin\\NotificationCenter\\NotificationCenter.Dao\\NotificationCenter.Dao.csproj": {}
+    "C:\\Users\\JeremyVoisin\\source\\repos\\NotificationCenter\\NotificationCenter.Dao\\NotificationCenter.Dao.csproj": {}
   },
   "projects": {
-    "C:\\Users\\voisi\\Source\\Repos\\JeremyVoisin\\NotificationCenter\\NotificationCenter.Dao\\NotificationCenter.Dao.csproj": {
+    "C:\\Users\\JeremyVoisin\\source\\repos\\NotificationCenter\\NotificationCenter.Dao\\NotificationCenter.Dao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\voisi\\Source\\Repos\\JeremyVoisin\\NotificationCenter\\NotificationCenter.Dao\\NotificationCenter.Dao.csproj",
+        "projectUniqueName": "C:\\Users\\JeremyVoisin\\source\\repos\\NotificationCenter\\NotificationCenter.Dao\\NotificationCenter.Dao.csproj",
         "projectName": "NotificationCenter.Dao",
-        "projectPath": "C:\\Users\\voisi\\Source\\Repos\\JeremyVoisin\\NotificationCenter\\NotificationCenter.Dao\\NotificationCenter.Dao.csproj",
-        "packagesPath": "C:\\Users\\voisi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\voisi\\Source\\Repos\\JeremyVoisin\\NotificationCenter\\NotificationCenter.Dao\\obj\\",
+        "projectPath": "C:\\Users\\JeremyVoisin\\source\\repos\\NotificationCenter\\NotificationCenter.Dao\\NotificationCenter.Dao.csproj",
+        "packagesPath": "C:\\Users\\JeremyVoisin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JeremyVoisin\\source\\repos\\NotificationCenter\\NotificationCenter.Dao\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\voisi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JeremyVoisin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +37,16 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

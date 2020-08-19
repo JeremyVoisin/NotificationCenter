@@ -6,7 +6,7 @@ using System.Text;
 
 namespace NotificationCenter.PayloadParser.PayloadParserImpl
 {
-    class JsonPayloadParser : IPayloadParser
+    public class JsonPayloadParser : IPayloadParser
     {
         public JObject ParseByteArrayPayload(byte[] payload, Encoding encoding)
         {
