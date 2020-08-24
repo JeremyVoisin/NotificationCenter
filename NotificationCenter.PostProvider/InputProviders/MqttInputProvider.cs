@@ -1,8 +1,10 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json.Linq;
 using NotificationCenter.Data;
 using NotificationCenter.PayloadParser;
 using NotificationCenter.PayloadParser.PayloadParserImpl;
 using NotificationCenter.PayloadParser.PayloadSearchEngineImpl;
+using NotificationCenter.Provider.Processor;
 using PayloadParser;
 using System;
 using System.Collections.Generic;
@@ -18,20 +20,35 @@ namespace NotificationCenter.PostProvider.InputProviders
     {
         private static readonly string MQTTTopicTag = "MQTTTopic";
 
-        Mapping providerMapping;
+        Input input;
 
         MqttClient client;
 
-        public MqttInputProvider(Mapping mapping)
+        List<Engine.Processing> Processors = new List<Engine.Processing>();
+
+        public MqttInputProvider(Input i)
         {
-            providerMapping = mapping;
+            input = i;
+        }
+
+        event Engine.Processing IInputProvider.OnProcessingRequired
+        {
+            add
+            {
+                Processors.Add(value);
+            }
+
+            remove
+            {
+                Processors.Remove(value);
+            }
         }
 
         public bool Connect()
         {
             try
             {
-                client = new MqttClient(providerMapping.Input.Provider.ProviderUrl);
+                client = new MqttClient(input.Provider.ProviderUrl);
 
                 client.MqttMsgPublishReceived += Client_MqttMsgPublishReceived;
 
@@ -39,7 +56,7 @@ namespace NotificationCenter.PostProvider.InputProviders
 
                 client.Connect(clientId);
 
-                client.Subscribe(new string[] { providerMapping.Input.Provider.InputParameters.First(i => i.ParameterKey == MQTTTopicTag).ParameterKey }, new byte[] { MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE });
+                client.Subscribe(new string[] { input.Provider.InputParameters.First(i => i.ParameterKey == MQTTTopicTag).ParameterKey }, new byte[] { MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE });
             }
             catch(MqttConnectionException exception)
             {
@@ -58,11 +75,13 @@ namespace NotificationCenter.PostProvider.InputProviders
         public bool Process(string payload)
         {
             IPayloadParser payloadParser = new JsonPayloadParser();
-            IPayloadSearchEngine searchEngine = new PayloadSearchEngine();
 
             JObject body = payloadParser.ParseStringPayload(payload);
 
-            
+            foreach(Engine.Processing p in Processors)
+            {
+                p.Invoke(this, body);
+            }
 
             return true;
         }

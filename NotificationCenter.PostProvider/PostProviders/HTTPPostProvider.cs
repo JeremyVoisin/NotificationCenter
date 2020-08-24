@@ -7,12 +7,21 @@ namespace NotificationCenter.PostProvider.PostProviders
 {
     class HTTPPostProvider : IPostProvider
     {
-        public bool Post(OutputProvider provider, string jsonBody)
+
+        public Output Output { get; }
+        
+        public HTTPPostProvider(Output o)
         {
-            throw new NotImplementedException();
+            Output = o;
         }
 
-        public bool Post(OutputProvider provider, string jsonBody, Dictionary<string, string> headers)
+        public bool Post(string jsonBody)
+        {
+            Console.WriteLine(jsonBody);
+            return true;
+        }
+
+        public bool Post(string jsonBody, Dictionary<string, string> headers)
         {
             throw new NotImplementedException();
         }

@@ -5,9 +5,10 @@ using System.Text;
 
 namespace NotificationCenter.PostProvider
 {
-    interface IPostProvider
+    public interface IPostProvider
     {
-        bool Post(OutputProvider provider, string jsonBody, Dictionary<string, string> headers);
-        bool Post(OutputProvider provider, string jsonBody);
+        Output Output { get; }
+        bool Post(string jsonBody, Dictionary<string, string> headers);
+        bool Post(string jsonBody);
     }
 }
