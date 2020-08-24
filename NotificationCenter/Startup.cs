@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -18,12 +19,16 @@ using NotificationCenter.Inputs.Authorization.Services;
 using NotificationCenter.PayloadParser;
 using NotificationCenter.PayloadParser.PayloadParserImpl;
 using NotificationCenter.PayloadParser.PayloadSearchEngineImpl;
+using NotificationCenter.Provider.Processor;
 using PayloadParser;
 
 namespace NotificationCenter
 {
     public class Startup
     {
+
+        private static Engine engine;
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -56,14 +61,37 @@ namespace NotificationCenter
 
             services.AddHttpContextAccessor();
 
-            IPayloadSearchEngine searchEngine = new PayloadSearchEngine();
-            IPayloadParser payloadParser = new JsonPayloadParser();
-
-            Console.WriteLine(searchEngine.SearchForValue(payloadParser.ParseStringPayload("{'hector':{'echo':'Philippe'}}"), "hector.echo").Value<string>());
-
             using(DataContext db = new DataContext())
             {
                 db.Database.EnsureCreated();
+
+                if (!db.Inputs.Any())
+                {
+                    db.Mappings.Add(new Mapping()
+                    {
+                        Output = new Output() {
+                            Schema = "{'test':'${thierry.toto}'}",
+                            Provider = new OutputProvider() { 
+                                OutputParameters = new List<OutputParameter>(),
+                                ProviderUrl = "",
+                                Type = OutputType.Rest
+                            }
+                        },
+                        Input = new Input()
+                        {
+                            Schema = "",
+                            Provider = new InputProvider()
+                            {
+                                InputParameters = new List<InputParameter>() { new InputParameter() { ParameterKey = "MQTTTopic", ParameterValue = "test/notification" } },
+                                Type = InputType.Mqtt,
+                                ProviderUrl = "10.1.2.5"
+                            }
+                        }
+                    });
+                    db.SaveChanges();
+                }
+
+                engine = new Engine(db.Inputs.Include(i => i.Provider).ThenInclude(p => p.InputParameters).ToList());
             }
         }
 

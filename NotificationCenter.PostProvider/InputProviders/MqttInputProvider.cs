@@ -56,7 +56,7 @@ namespace NotificationCenter.PostProvider.InputProviders
 
                 client.Connect(clientId);
 
-                client.Subscribe(new string[] { input.Provider.InputParameters.First(i => i.ParameterKey == MQTTTopicTag).ParameterKey }, new byte[] { MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE });
+                client.Subscribe(new string[] { input.Provider.InputParameters.First(i => i.ParameterKey == MQTTTopicTag).ParameterValue }, new byte[] { MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE });
             }
             catch(MqttConnectionException exception)
             {

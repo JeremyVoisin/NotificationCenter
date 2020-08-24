@@ -20,6 +20,7 @@
   <ItemGroup>
     <ProjectReference Include="..\NotificationCenter.Dao\NotificationCenter.Dao.csproj" />
     <ProjectReference Include="..\NotificationCenter.Inputs\NotificationCenter.Inputs.csproj" />
+    <ProjectReference Include="..\NotificationCenter.PostProvider\NotificationCenter.Provider.csproj" />
     <ProjectReference Include="..\PayloadParser\NotificationCenter.PayloadParser.csproj" />
   </ItemGroup>
 

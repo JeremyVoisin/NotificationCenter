@@ -45,11 +45,11 @@ namespace NotificationCenter.Provider.Processor
                 Output output = pProvider.Output;
                 string bodyOutput = output.Schema;
 
-                IEnumerable<Capture> toFind = Regex.Match(bodyOutput, @"\{([^)]*)\}").Captures.Distinct();
+                IEnumerable<Group> toFind = Regex.Match(bodyOutput, @"\$\{([^}]*)\}").Groups.Where(t => !t.Value.Contains("$")).Distinct();
 
-                foreach(Capture c in toFind)
+                foreach(Group c in toFind)
                 {
-                    bodyOutput = bodyOutput.Replace("{" + c.Value + "}", searchEngine.SearchForValue(body, c.Value).Value<string>());
+                    bodyOutput = bodyOutput.Replace("${" + c.Value + "}", searchEngine.SearchForValue(body, c.Value)?.Value<string>());
                 }
 
                 pProvider.Post(bodyOutput);

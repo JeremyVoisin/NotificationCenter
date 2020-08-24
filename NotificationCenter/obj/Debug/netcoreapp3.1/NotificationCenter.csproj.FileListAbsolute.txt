@@ -153,3 +153,6 @@ C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter\obj\Deb
 C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
 C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter\bin\Debug\netcoreapp3.1\M2Mqtt.dll
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter\bin\Debug\netcoreapp3.1\NotificationCenter.Provider.dll
+C:\Users\JeremyVoisin\source\repos\NotificationCenter\NotificationCenter\bin\Debug\netcoreapp3.1\NotificationCenter.Provider.pdb
